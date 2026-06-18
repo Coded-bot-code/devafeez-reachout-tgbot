@@ -1,0 +1,16 @@
+{
+  "name": "devafeez-reachout-bot",
+  "version": "1.0.0",
+  "description": "Telegram + Email bot for DevAfeez ReachOut Center",
+  "main": "devafeez-bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node devafeez-bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.8",
+    "telegraf": "^4.15.3"
+  }
+}
